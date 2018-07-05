@@ -6,6 +6,6 @@ stage ("maven packaging"){
 sh "mvn clean install"
 }
   stage ("docker image build"){
-    sh "sudo docker build -t "mahesh0790/demo" ."
+    sh "sudo docker build -t 'mahesh0790/demo' ."
   }
 }
