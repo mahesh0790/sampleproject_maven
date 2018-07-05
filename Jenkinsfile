@@ -6,6 +6,6 @@ stage ("maven packaging"){
 sh "mvn clean install"
 }
   stage ("mail "){
-    mail bcc: '', body: 'maheshdeo', cc: '', from: '', replyTo: '', subject: 'mahesh demo', to: 'maheshdevops18@gmail.com'
+    mail bcc: '', body: 'maheshdeo', cc: '', from: '', replyTo: '', subject: 'mahesh demo', to: 'mahesh.rockz790@gmail.com'
   }
 }
