@@ -5,7 +5,7 @@ git "https://github.com/mahesh0790/sampleproject_maven"
 stage ("maven packaging"){
 sh "mvn clean install"
 }
-  stage ("mail "){
-    mail bcc: '', body: 'maheshdeo', cc: '', from: '', replyTo: '', subject: 'mahesh demo', to: 'mahesh.rockz790@gmail.com'
+  stage ("docker image build"){
+    sh "sudo docker build -t "mahesh0790/demo" ."
   }
 }
