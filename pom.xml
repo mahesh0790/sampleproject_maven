@@ -188,6 +188,5 @@
       <url>http://10.0.2.15:8081/nexus/content/repositories/mahesh/</url>
       <layout>default</layout>
     </repository>
-    ...
 </distributionManagement>
 </project>
