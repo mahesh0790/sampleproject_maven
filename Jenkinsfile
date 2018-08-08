@@ -7,7 +7,7 @@ pipeline {
     }
     }
   }
-     stages {
+   
      stage ('maven packaging'){
               
          steps{
@@ -16,4 +16,4 @@ pipeline {
      }
   }
   
-}
+
