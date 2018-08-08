@@ -8,8 +8,7 @@ pipeline {
     }
   }
     stage ('maven packaging'){
-              
-         steps{
+             steps{
          sh 'mvn clean install'
          }
      }
