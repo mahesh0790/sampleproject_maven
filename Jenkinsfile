@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('git checkout'){
          steps {
-    sh 'git "https://github.com/mahesh0790/sampleproject_maven.git"'
+    sh 'https://github.com/mahesh0790/sampleproject_maven.git'
     }
     }
   }
