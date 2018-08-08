@@ -5,13 +5,15 @@ pipeline {
          steps{
     git "https://github.com/mahesh0790/sampleproject_maven.git"
     }
-         stage ('maven packaging'){
+    }
+  }
+     stages {
+     stage ('maven packaging'){
               
          steps{
          sh 'mvn clean install'
          }
-         }
-    }
+     }
   }
   
 }
