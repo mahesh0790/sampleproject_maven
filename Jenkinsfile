@@ -1,7 +1,5 @@
 pipeline {
-     agent {
-          sudo docker { image 'ubuntu' }
-     }
+     agent any
      stages{
      stage ('scm checkout'){
           steps{
