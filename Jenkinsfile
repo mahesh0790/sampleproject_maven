@@ -11,6 +11,11 @@ pipeline {
      sh 'mvn clean install'
      }
 }
+          stage ('docker image build'){
+               steps{
+                    sh "sudo docker build -t ""mahe/maa"
      }
 }
 
+     }
+}
