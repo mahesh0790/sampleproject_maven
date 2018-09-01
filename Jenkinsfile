@@ -3,7 +3,7 @@ pipeline {
      stages{
      stage ('scm checkout'){
           steps{
-          sh "https://github.com/mahesh0790/sampleproject_maven.git"
+          git " https://github.com/mahesh0790/sampleproject_maven.git"
 }
      }
      stage ('mvn packaging'){
