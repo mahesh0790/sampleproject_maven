@@ -13,7 +13,7 @@ pipeline {
 }
           stage ('docker image build'){
                steps{
-                    sh "sudo docker build -t='mahe/maa'"
+                    sh "docker build -t='mahe/maa'"
      }
 }
 
