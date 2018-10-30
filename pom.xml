@@ -182,11 +182,8 @@
 	<name>simple-web-app</name>
 	<distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>mahes</id>
-      <name>mahes</name>
-      <url>http://10.0.2.15:8081/nexus/content/repositories/mahesh/</url>
-      <layout>default</layout>
+      <id>mahesh</id>
+      <url>http://localhost:8081/nexus/content/repositories/mahesh</url>
     </repository>
 </distributionManagement>
 </project>
