@@ -183,7 +183,7 @@
 	<distributionManagement>
     <repository>
       <id>mahesh</id>
-      <url>http://localhost:8081/nexus/content/repositories/mahesh/</url>
+      <url>http://localhost:8081/nexus/content/repositories/mahesh</url>
     </repository>
 </distributionManagement>
 </project>
